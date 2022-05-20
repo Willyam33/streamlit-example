@@ -1,3 +1,17 @@
+import numpy as np
+import pandas as pd
+import geopandas as gpd #Gestion données spatiales
+import matplotlib.image as img
+import matplotlib.pyplot as plt
+import seaborn as sns
+from shapely.geometry import Point, Polygon
+import cv2
+from sklearn.model_selection import train_test_split
+from tensorflow.keras.utils import to_categorical
+from tensorflow.keras.layers import Input, Dense, Dropout, Flatten, Conv2D, MaxPooling2D
+from tensorflow.keras.models import Model
+
+
 from collections import namedtuple
 import altair as alt
 import math
